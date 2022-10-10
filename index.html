@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            counter-reset: section;
+        }
+        p::before{
+            counter-increment: section;
+            content: " " counter(section);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <p> mustafizur</p>
+        <p> mahafuz</p>
+        <p> rahat</p>
+        <p> sakil</p>
+        <p> munna</p>
+        <p> sumon</p>
+        <p> salim</p>
+        <p> shamim</p>
+        <p> naimur</p>
+        <p> midul</p>
+        <p> mahadi</p>
+    </ul>
+</body>
+</html>
